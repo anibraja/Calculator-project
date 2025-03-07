@@ -4,6 +4,7 @@ class Program
 {
     static void Main()
     {
+ Subtraction
 Mutiplication
  Division
         Console.Write("Enter dividend: ");
@@ -24,12 +25,15 @@ Mutiplication
 
 
  Subtraction
+
+ Addition
         Console.Write("Enter first number: ");
         double num1 = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Enter second number: ");
         double num2 = Convert.ToDouble(Console.ReadLine());
 
+ Subtraction
  Mutiplication
         double product = num1 * num2;
 
@@ -40,5 +44,10 @@ Mutiplication
 
         Console.WriteLine($"The result of {num1} - {num2} is {result}");
  Subtraction
+
+        double sum = num1 + num2;
+
+        Console.WriteLine($"The sum of {num1} and {num2} is {sum}");
+Addition
     }
 }
