@@ -1,2 +1,23 @@
-cout<<"My name is:"<<Aneeb>>";
-cout<<"Roll no. is:"<<051>>";
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter dividend: ");
+        double dividend = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Enter divisor: ");
+        double divisor = Convert.ToDouble(Console.ReadLine());
+
+        if (divisor != 0)
+        {
+            double quotient = dividend / divisor;
+            Console.WriteLine($"The result of dividing {dividend} by {divisor} is {quotient}");
+        }
+        else
+        {
+            Console.WriteLine("Division by zero is not allowed.");
+        }
+    }
+}
